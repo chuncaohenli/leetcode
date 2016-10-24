@@ -15,6 +15,7 @@ class Solution(object):
     
     def recursiveLeft(self,root,ll):
         if not root:
+            #if node is empty, append empty string '' to the list to make sure the result is right
             ll.append('')
             return
         ll.append(root.val)
