@@ -1,5 +1,8 @@
 # DP
 # pay attention to 0,  '0xxxxxxxxxxx' returns 0,   '10'  returns 1
+#
+#     P(i) = P(i+1) + P(i+2), if int(i,i+1) <= 26
+#            P(i+1), else
 
 class Solution(object):
     def numDecodings(self, s):
