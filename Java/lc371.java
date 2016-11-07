@@ -1,4 +1,5 @@
-//
+// calculate carry first by &
+// calculate result without considering the carry by ^
 
 public class Solution {
     public int getSum(int a, int b) {
